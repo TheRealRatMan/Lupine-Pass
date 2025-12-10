@@ -193,7 +193,7 @@ Balloon Alert / Floating Text defines
 	/datum/species/akula,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
+	/datum/species/beastman ,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
@@ -219,12 +219,12 @@ Balloon Alert / Floating Text defines
 	/datum/species/lizardfolk,\
 	/datum/species/tabaxi,\
 	/datum/species/akula,\
-	/datum/species/anthromorph,\
+	/datum/species/beastman ,\
 	/datum/species/demihuman,\
 
 #define RACES_SHUNNED \
 	/datum/species/halforc,\
-	/datum/species/anthromorphsmall,\
+	/datum/species/critterfolk,\
 	/datum/species/kobold,\
 	/datum/species/dullahan,\
 	/datum/species/lamia,\
@@ -259,8 +259,8 @@ Balloon Alert / Floating Text defines
 	/datum/species/akula,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
+	/datum/species/beastman ,\
+	/datum/species/critterfolk,\
 	/datum/species/demihuman,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -285,8 +285,8 @@ Balloon Alert / Floating Text defines
 	/datum/species/akula,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
+	/datum/species/beastman ,\
+	/datum/species/critterfolk,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/orc,\
@@ -312,7 +312,7 @@ Balloon Alert / Floating Text defines
 	/datum/species/akula,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
+	/datum/species/beastman ,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/construct/metal,\
@@ -332,7 +332,7 @@ Balloon Alert / Floating Text defines
 	/datum/species/akula,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
+	/datum/species/beastman ,\
 	/datum/species/demihuman,\
 	/datum/species/construct/metal,\
 	/datum/species/construct/porcelain,\

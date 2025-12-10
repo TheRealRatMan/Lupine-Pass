@@ -142,7 +142,7 @@
 /datum/species/kobold/on_species_loss(mob/living/carbon/C)
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
-	C.mob_size = MOB_SIZE_SMALL//makes the mob medium :)
+	C.mob_size = MOB_SIZE_MEDIUM//makes the mob medium :)
 
 /datum/species/kobold/get_random_body_markings(list/passed_features)
 	return assemble_body_markings_from_set(GLOB.body_marking_sets_by_type[/datum/body_marking_set/kobold_scale], passed_features, src)

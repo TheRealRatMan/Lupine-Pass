@@ -1,7 +1,7 @@
-/mob/living/carbon/human/species/anthromorphsmall
-	race = /datum/species/anthromorphsmall
+/mob/living/carbon/human/species/critterfolk
+	race = /datum/species/critterfolk
 
-/datum/species/anthromorphsmall
+/datum/species/critterfolk
 	name = "Verminvolk"
 	id = "anthromorphsmall"
 	desc = "<b>Verminvolk</b><br>\
@@ -124,21 +124,21 @@
 		/datum/descriptor_choice/prominent_four_wild,
 	)
 
-/datum/species/anthromorphsmall/on_species_gain(mob/living/carbon/C, datum/species/old_species)
+/datum/species/critterfolk/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 
-/datum/species/anthromorphsmall/on_species_loss(mob/living/carbon/C)
+/datum/species/critterfolk/on_species_loss(mob/living/carbon/C)
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 
-/datum/species/anthromorphsmall/check_roundstart_eligible()
+/datum/species/critterfolk/check_roundstart_eligible()
 	return TRUE
 
-/datum/species/anthromorphsmall/qualifies_for_rank(rank, list/features)
+/datum/species/critterfolk/qualifies_for_rank(rank, list/features)
 	return TRUE
 
-/datum/species/anthromorphsmall/get_random_features()
+/datum/species/critterfolk/get_random_features()
 	var/list/returned = MANDATORY_FEATURE_LIST
 	var/main_color
 	var/second_color

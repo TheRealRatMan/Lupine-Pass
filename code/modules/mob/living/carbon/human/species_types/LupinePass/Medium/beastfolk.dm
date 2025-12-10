@@ -1,13 +1,13 @@
-/mob/living/carbon/human/species/anthromorph
-	race = /datum/species/anthromorph
+/mob/living/carbon/human/species/beastman
+	race = /datum/species/beastman
 
-/datum/species/anthromorph
-	name = "Wild-Kin"
+/datum/species/beastman 
+	name = "Beast-Folk"
 	id = "anthromorph"
-	desc = "<b>Wild-Kin</b><br>\
-	Wild-kins are a highly diverse and varied group of people, the majority of which are descendants of the \
-	first followers of Dendor who rejected civilization in favour of the deep forests. However, some came from \
-	magical anomalies or curses, Divine or otherwise.<br>\
+	desc = "<b>Beast-Folk</b><br>\
+	Beast-Folk is a catch-all term for any uncategorised species of people who are not part \
+	of the main categorisations. They can feature any mix of animal features and have very \
+	little in common with each other<br>\
 	(+1 Constitution, +1 Perception)"
 
 	expanded_desc = "Wild-kins are a highly diverse and varied group of people, the majority of which are descendants of the \
@@ -154,21 +154,21 @@
 		/datum/descriptor_choice/prominent_four_wild,
 	)
 
-/datum/species/anthromorph/on_species_gain(mob/living/carbon/C, datum/species/old_species)
+/datum/species/beastman /on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 
-/datum/species/anthromorph/on_species_loss(mob/living/carbon/C)
+/datum/species/beastman /on_species_loss(mob/living/carbon/C)
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 
-/datum/species/anthromorph/check_roundstart_eligible()
+/datum/species/beastman /check_roundstart_eligible()
 	return TRUE
 
-/datum/species/anthromorph/qualifies_for_rank(rank, list/features)
+/datum/species/beastman /qualifies_for_rank(rank, list/features)
 	return TRUE
 
-/datum/species/anthromorph/get_random_features()
+/datum/species/beastman /get_random_features()
 	var/list/returned = MANDATORY_FEATURE_LIST
 	var/main_color
 	var/second_color

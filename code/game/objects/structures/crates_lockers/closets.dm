@@ -23,7 +23,7 @@
 	var/allow_objects = FALSE
 	var/allow_dense = FALSE
 	var/dense_when_open = FALSE //if it's dense when open or not
-	var/max_mob_size = MOB_SIZE_HUMAN //Biggest mob_size accepted by the container
+	var/max_mob_size = MOB_SIZE_MEDIUM //Biggest mob_size accepted by the container
 	var/mob_storage_capacity = 2 // how many human sized mob/living can fit together inside a closet.
 	var/storage_capacity = 30 //This is so that someone can't pack hundreds of items in a locker/crate then open it in a populated area to crash clients.
 	var/open_sound = 'sound/misc/cupboard_open.ogg'
