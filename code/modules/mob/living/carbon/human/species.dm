@@ -215,9 +215,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	sortList(GLOB.roundstart_races, GLOBAL_PROC_REF(cmp_text_dsc))
 
 /datum/species/proc/check_roundstart_eligible()
-	if(name && id && (id in (CONFIG_GET(keyed_list/roundstart_races))))
-		return TRUE
-	return FALSE
+    if(name && id && (id in (CONFIG_GET(keyed_list/roundstart_races))))
+        return TRUE
+    return FALSE
 
 /datum/species/proc/random_name(gender,unique,lastname)
 	return random_human_name(gender,unique,lastname)
