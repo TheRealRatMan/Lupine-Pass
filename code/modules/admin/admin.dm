@@ -201,7 +201,7 @@
 		body += "<a class='skill-btn' href='?_src_=holder;[HrefToken()];add_stat=[REF(M)];stat=perception'>+</a> "
 		body += "<a class='skill-btn' href='?_src_=holder;[HrefToken()];lower_stat=[REF(M)];stat=perception'>-</a></li>"
 
-		body += "<li>endurance: [living.STAWIL] "
+		body += "<li>endurance: [living.STAEND] "
 		body += "<a class='skill-btn' href='?_src_=holder;[HrefToken()];add_stat=[REF(M)];stat=endurance'>+</a> "
 		body += "<a class='skill-btn' href='?_src_=holder;[HrefToken()];lower_stat=[REF(M)];stat=endurance'>-</a></li>"
 

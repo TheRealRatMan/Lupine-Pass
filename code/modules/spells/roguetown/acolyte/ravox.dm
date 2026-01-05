@@ -201,7 +201,7 @@
 		if(ishuman(target))
 			var/mob/living/carbon/human/H = target
 			var/strdiff = user.STASTR - H.STASTR
-			var/enddiff = user.STAWIL - H.STAWIL
+			var/enddiff = user.STAEND - H.STAEND
 			var/condiff = user.STACON - H.STACON
 			var/spddiff = user.STASPD - H.STASPD
 			var/fordiff = user.STALUC - H.STALUC

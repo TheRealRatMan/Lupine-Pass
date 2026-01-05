@@ -544,7 +544,7 @@
 	character.adjust_skillrank_up_to(/datum/skill/misc/reading, 3, TRUE)
 	character.STASTR = 20
 	character.STACON = 20
-	character.STAWIL = 20
+	character.STAEND = 20
 
 /datum/special_trait/my_precious
 	name = "My Precious"

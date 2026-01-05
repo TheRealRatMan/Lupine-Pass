@@ -32,7 +32,7 @@
 	var/STASTR = 15
 	var/STASPD = 12
 	var/STAINT = 12
-	var/STAWIL = 12
+	var/STAEND = 12
 	var/STACON = 12
 	var/STAPER = 12
 	var/STALUC = 10
@@ -57,7 +57,7 @@
 	owner.current.STAPER = src.STAPER
 	owner.current.STAINT = src.STAINT
 	owner.current.STASPD = src.STASPD
-	owner.current.STAWIL = src.STAWIL
+	owner.current.STAEND = src.STAEND
 	owner.current.STACON = src.STACON
 	owner.current.STALUC = src.STALUC
 	//Dreamfiends fear them up close.
