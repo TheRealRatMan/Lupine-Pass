@@ -1,5 +1,5 @@
 /datum/job/roguetown/niteman
-	title = "Bathmaster"
+	title = TITLE_SHIPS_CAPTAIN
 	flag = NITEMASTER
 	department_flag = YEOMEN
 	faction = "Station"
@@ -34,7 +34,7 @@
 		H.become_blind("advsetup")
 
 /datum/advclass/bathmaster
-	name = "Bathmaster"
+	name = "Ship's Captain"
 	tutorial = "You are renting out the bathhouse in a joint operation with the Innkeep. You provide security for the bathwenches and help them to find work--when you're not being a trouble-making rake that others suffer to tolerate."
 	outfit = /datum/outfit/job/roguetown/niteman/basic
 	category_tags = list(CTAG_BATHMOM)

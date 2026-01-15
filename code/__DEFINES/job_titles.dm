@@ -1,5 +1,7 @@
 
 
+#define TITLE_SHIPS_CAPTAIN "Ship's Captain"
+
 
 //Deepdwellers
 #define TITLE_DEEPDWELLER_CHIEFTAIN "Deepdweller Chieftain"
