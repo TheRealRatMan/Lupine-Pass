@@ -345,7 +345,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/prisonerr
-	name = "Prisoner (Town)"
+	name = TITLE_THRALL
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/prisonerb

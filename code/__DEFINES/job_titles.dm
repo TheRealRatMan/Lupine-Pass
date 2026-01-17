@@ -3,6 +3,9 @@
 #define TITLE_SHIPS_CAPTAIN "Ship's Captain"
 
 
+
+#define TITLE_THRALL "Thrall"
+
 //Deepdwellers
 #define TITLE_DEEPDWELLER_CHIEFTAIN "Deepdweller Chieftain"
 //Goblin Shaman does not exist, and neither does this

@@ -1,10 +1,10 @@
 /datum/job/roguetown/prisonerr
-	title = "Prisoner (Town)"
+	title = TITLE_THRALL
 	flag = PRISONERR
 	department_flag = PEASANTS
 	faction = "Station"
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 2
+	spawn_positions = 2
 
 
 	allowed_sexes = list(MALE, FEMALE)
