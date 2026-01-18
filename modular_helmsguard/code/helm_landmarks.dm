@@ -37,7 +37,7 @@
 	jobspawn_override = list(
 	TITLE_STELLARI,
 	"Master-at-Arms",
-	"Man-at-Arms",
+	TITLE_DRENGIR,
 	"Gatekeeper"
 	)
 	delete_after_roundstart = FALSE
@@ -162,7 +162,7 @@
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/helms/garrison/manatarms
-	name = "Man-at-Arms"
+	name = TITLE_DRENGIR
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/helms/garrison/masteratarms

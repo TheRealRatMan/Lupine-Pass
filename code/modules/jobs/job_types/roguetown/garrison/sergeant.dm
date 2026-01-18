@@ -167,7 +167,7 @@
 			to_chat(user, span_alert("I must say something to give an order!"))
 			return
 		if(user.job == "Sergeant")
-			if(!target.job == "Man at Arms")
+			if(!target.job == TITLE_DRENGIR)
 				to_chat(user, span_alert("I cannot order one not of my ranks!"))
 				return
 		if(user.job == "Knight Captain")
@@ -230,7 +230,7 @@
 			to_chat(user, span_alert("I must say something to give an order!"))
 			return
 		if(user.job == "Sergeant")
-			if(!target.job == "Man at Arms")
+			if(!target.job == TITLE_DRENGIR)
 				to_chat(user, span_alert("I cannot order one not of my ranks!"))
 				return
 		if(user.job == "Knight Captain")
@@ -262,7 +262,7 @@
 			to_chat(user, span_alert("I must say something to give an order!"))
 			return
 		if(user.job == "Sergeant")
-			if(!target.job == "Man at Arms")
+			if(!target.job == TITLE_DRENGIR)
 				to_chat(user, span_alert("I cannot order one not of my ranks!"))
 				return
 		if(user.job == "Knight Captain")
@@ -321,7 +321,7 @@
 			to_chat(user, span_alert("I must say something to give an order!"))
 			return
 		if(user.job == "Sergeant")
-			if(!target.job == "Man at Arms")
+			if(!target.job == TITLE_DRENGIR)
 				to_chat(user, span_alert("I cannot order one not of my ranks!"))
 				return
 		if(user.job == "Knight Captain")
