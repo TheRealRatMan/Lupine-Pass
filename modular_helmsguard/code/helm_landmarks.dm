@@ -35,7 +35,7 @@
 	name = "Retinue Late (Helm)"
 	icon_state = "arrow"
 	jobspawn_override = list(
-	"Knight",
+	TITLE_STELLARI,
 	"Master-at-Arms",
 	"Man-at-Arms",
 	"Gatekeeper"
@@ -158,7 +158,7 @@
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/helms/garrison/knight
-	name = "Knight"
+	name = TITLE_STELLARI
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/helms/garrison/manatarms

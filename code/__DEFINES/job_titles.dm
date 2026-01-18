@@ -3,8 +3,8 @@
 
 //Keep
 #define TITLE_HERSIR "Hersir" //1 L, Duke
-#define TITLE_VALA "Vala" //1 L, court magos
-#define TITLE_STELLARI "Stellari" //2 L, Knight
+#define TITLE_VALA "Vala"
+#define TITLE_STELLARI "Stellari"
 #define TITLE_DRENGIR "Drengir" //8 L, MAA
 #define TITLE_SKOGAMOR "Skogamor" //2 L, Warden
 #define TITLE_SMIOR "Smior"

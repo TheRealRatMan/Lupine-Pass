@@ -48,7 +48,7 @@
 		"Town Elder",
 		"Captain",
 		"Archivist",
-		"Knight",
+		TITLE_STELLARI,
 		"Dame",
 		"Knight Captain",
 		TITLE_VALA,

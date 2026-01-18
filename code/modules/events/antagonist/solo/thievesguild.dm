@@ -34,7 +34,7 @@
 		"Town Elder",
 		"Captain",
 		"Archivist",
-		"Knight",
+		TITLE_STELLARI,
 		TITLE_VALA,
 		"Inquisitor",
 		"Orthodoxist",

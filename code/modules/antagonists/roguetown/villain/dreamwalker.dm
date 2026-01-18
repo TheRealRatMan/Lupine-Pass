@@ -240,7 +240,7 @@
 		"Dungeoneer",
 		"Sergeant",
 		"Men-at-arms",
-		"Knight",
+		TITLE_STELLARI,
 		"Squire",
 		TITLE_SAILOR,
 		"Warden",
