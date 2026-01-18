@@ -242,7 +242,7 @@
 		"Men-at-arms",
 		"Knight",
 		"Squire",
-		"Mercenary",
+		TITLE_SAILOR,
 		"Warden",
 	)
 

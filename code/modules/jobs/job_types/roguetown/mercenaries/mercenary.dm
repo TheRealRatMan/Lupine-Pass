@@ -1,10 +1,10 @@
 /datum/job/roguetown/mercenary
-	title = "Mercenary"
+	title = TITLE_SAILOR
 	flag = MERCENARY
 	department_flag = MERCENARIES
 	faction = "Station"
-	total_positions = 8
-	spawn_positions = 8
+	total_positions = 2
+	spawn_positions = 2
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_ALL_KINDS
 	tutorial = "You are a well traveled sailor from foreign lands.  A life traveling the world and encountering its many dangers have left you a skilled fighter.  Though it is your time to relax on land, some light mercenary work for coin would not hurt."

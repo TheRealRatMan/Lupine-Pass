@@ -116,7 +116,7 @@
 	name = "Mercenary Late (Helm)"
 	icon_state = "arrow"
 	jobspawn_override = list(
-	"Mercenary",
+	TITLE_SAILOR,
 	)
 	delete_after_roundstart = FALSE
 

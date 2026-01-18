@@ -25,4 +25,4 @@
 #define TITLE_PRIEST "Priest" //1 Acolyte
 #define TITLE_TAPSTER "Tapster"
 #define TITLE_SHIPS_CAPTAIN "Ship's Captain"
-#define TITLE_SAILOR "Sailor" //2 Mercenary
+#define TITLE_SAILOR "Sailor"

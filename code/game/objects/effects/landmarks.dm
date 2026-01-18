@@ -122,7 +122,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/mercenarylate
 	name = "Mercenarylate"
 	icon_state = "arrow"
-	jobspawn_override = list("Mercenary")
+	jobspawn_override = list(TITLE_SAILOR)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/villagerlate
@@ -325,7 +325,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/mercenary
-	name = "Mercenary"
+	name = TITLE_SAILOR
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/vagrant
