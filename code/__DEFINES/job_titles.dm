@@ -1,11 +1,11 @@
-
-
-#define TITLE_SHIPS_CAPTAIN "Ship's Captain"
-
-
-
+//Keep
+#define TITLE_HERSIR "Hersir" //1 L, Duke
+#define TITLE_VALA "Vala" //1 L, court magos
+#define TITLE_STELLARI "Stellari" //2 L, Knight
+#define TITLE_DRENGIR "Drengir" //8 L, MAA
+#define TITLE_SKOGAMOR "Skogamor" //2 L, Warden
+#define TITLE_SMIOR "Smior" //2 L, Towner
 #define TITLE_THRALL "Thrall"
-#define TITLE_RAIDER_NOMAD "Raider Nomad"
 
 //Deepdwellers
 #define TITLE_DEEPDWELLER_CHIEFTAIN "Deepdweller Chieftain"
@@ -16,3 +16,13 @@
 #define TITLE_DEEPDWELLER_WARRIOR "Deepdweller Warrior"
 #define TITLE_DEEPDWELLER_SLAVE "Deepdweller Slave"
 
+
+#define TITLE_RAIDER_NOMAD "Raider Nomad"
+
+//Hamlet
+#define TITLE_BURGMEISTER "Burgmeister" //1 Veteran
+#define TITLE_HAMLET_SMITH "Hamlet Smith" //1 Guildmaster
+#define TITLE_PRIEST "Priest" //1 Acolyte
+#define TITLE_TAPSTER "Tapster" //1 Bath Attendant
+#define TITLE_SHIPS_CAPTAIN "Ship's Captain"
+#define TITLE_SAILOR "Sailor" //2 Mercenary
