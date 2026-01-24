@@ -7,7 +7,7 @@
 	spawn_positions = 7
 	antag_job = TRUE
 	allowed_races = RACES_ALL_KINDS
-	tutorial = "Long ago you did a crime worthy of your bounty being hung on the wall outside of the local inn. You now live with your fellow freemen in the bog, and generally get up to no good."
+	tutorial = "You are part of a wandering tribe of bandits, and were here long before the Lupian menace.  Do what you must to survive."
 
 	outfit = null
 	outfit_female = null
