@@ -5,7 +5,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	f_title = "Bathmatron"
+	f_title = "Ship's Captain"
 	allowed_races = RACES_ALL_KINDS
 	tutorial = "You’re the ship’s captain, ferrying countless adventurers to the hamlet.  It's in your best interest to ensure the hamlet does not fall whilst you are in port; Both for your safety and future prospects."
 	allowed_sexes = list(MALE, FEMALE)
