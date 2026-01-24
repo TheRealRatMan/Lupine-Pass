@@ -8,8 +8,8 @@ GLOBAL_VAR_INIT(adventurer_hugbox_duration_still, 3 MINUTES)
 	flag = ADVENTURER
 	department_flag = PEASANTS
 	faction = "Station"
-	total_positions = 20
-	spawn_positions = 20
+	total_positions = 50
+	spawn_positions = 50
 	allowed_races = RACES_ALL_KINDS
 	tutorial = "You seek gold, glory, or redemption.  Brave or foolhardy, you’ve set out to raid the Lupian Pass region where evil is afoot.\
 				Whispers of untold riches within the Lupian fort have been heard, and countless slaves awaiting freedom and safety.  Perhaps you will be the one to deliver us from the relentless Lupian Menace."
