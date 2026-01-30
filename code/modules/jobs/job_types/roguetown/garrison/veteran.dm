@@ -10,7 +10,7 @@
 	allowed_races = RACES_NO_CONSTRUCT //Constructs are too new to even exist long enough to be veterans, plus noble title.
 	tutorial = "You come from a long line of burgmeisters; Born leaders, loyal to the local lord.\
 				That hasn’t changed, even in this time, but your duties are aligned more martially now.  Keep the peace of the hamlet, settle disputes amongst its people, and lead the defenses against the agents of chaos."
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD)
 	advclass_cat_rolls = list(CTAG_VETERAN = 20)
 	display_order = JDO_VET
 	whitelist_req = TRUE
