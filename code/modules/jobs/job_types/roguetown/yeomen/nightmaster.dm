@@ -35,7 +35,7 @@
 
 /datum/advclass/bathmaster
 	name = "Ship's Captain"
-	tutorial = "You are renting out the bathhouse in a joint operation with the Innkeep. You provide security for the bathwenches and help them to find work--when you're not being a trouble-making rake that others suffer to tolerate."
+	tutorial = "You’re the ship’s captain, ferrying countless adventurers to the hamlet.  It's in your best interest to ensure the hamlet does not fall whilst you are in port; Both for your safety and future prospects."
 	outfit = /datum/outfit/job/roguetown/niteman/basic
 	category_tags = list(CTAG_BATHMOM)
 	subclass_stats = list(
@@ -56,13 +56,8 @@
 	neck = /obj/item/storage/belt/rogue/pouch/coins/rich
 	pants = /obj/item/clothing/under/roguetown/trou/leather
 	beltl = /obj/item/rogueweapon/whip
-
 	backl = /obj/item/storage/backpack/rogue/satchel
-	backpack_contents = list(
-		/obj/item/reagent_containers/food/snacks/grown/rogue/swampweeddry = 2,
-		/obj/item/reagent_containers/powder/moondust = 2,
-		/obj/item/reagent_containers/powder/spice = 1,
-		)
+
 	H.grant_language(/datum/language/thievescant)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 4, TRUE)
